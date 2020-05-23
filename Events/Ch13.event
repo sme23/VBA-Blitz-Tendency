@@ -111,6 +111,7 @@ LOAD2 0x1 SimLog_UnitsA
 ENUN
 CAM1 [2,20]
 Text(Ch13Beginning)
+CALL $591F40 //prevents skipping over item give
 SVAL 0x3 ChestKey
 GIVEITEMTO Vedge
 LOAD2 0x1 SimLog_UnitsB
