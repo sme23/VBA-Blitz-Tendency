@@ -71,7 +71,7 @@ NormalBallista(18,22)
 IronBallista(17,7)
 IronBallista(18,8) 
 MineTrap(0,0)
-END_MAIN
+END_MAIN //throws an error if there isn't an even number of traps
 
 ALIGN 4
 
