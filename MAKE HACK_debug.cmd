@@ -20,7 +20,7 @@ echo: | (pal2ea "%~dp0Battle Palettes/Battle Palettes.txt")
 
 cd "%~dp0Event Assembler"
 
-ColorzCore A FE8 "-output:%~dp0VBA-BT.gba" "-input:%~dp0Debug.event"
+ColorzCore A FE8 "-output:%~dp0VBA-BT.gba" "-input:%~dp0Debug.event" --build-times
 
 if exist "%~dp0ups/ups.exe" (
     cd "%~dp0ups"

@@ -4,6 +4,6 @@ copy FE8_clean.gba VBA-BT.gba
 
 cd "%~dp0Event Assembler"
 
-ColorzCore A FE8 -output:"%~dp0VBA-BT.gba" -input:"%~dp0Debug.event"
+ColorzCore A FE8 -output:"%~dp0VBA-BT.gba" -input:"%~dp0Debug.event" --build-times
 
 pause
