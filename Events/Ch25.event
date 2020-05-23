@@ -231,7 +231,7 @@ REDA [12,2] 0x00 0x00 0x0 0x0
 //large stuff of reinforcements below, you have been warned
 
 Turn3Event:
-_0x2620 0x1705 //this is the regular camera command but better for areas not near the center of the map
+CAMERA [5,23] //this is the regular camera command but better for areas not near the center of the map
 LOAD1 0x1 Turn3Reinforcements
 ENUN
 STAL 60
@@ -262,7 +262,7 @@ ALIGN 4
 
 
 Turn4Event:
-_0x2620 0x0E17 //this is the regular camera command but better for areas not near the center of the map
+CAMERA [23,14] //this is the regular camera command but better for areas not near the center of the map
 LOAD1 0x1 Turn4Reinforcements
 ENUN
 STAL 60
@@ -289,7 +289,7 @@ ALIGN 4
 
 
 Turn5Event:
-_0x2620 0x1714 //this is the regular camera command but better for areas not near the center of the map
+CAMERA [20,23] //this is the regular camera command but better for areas not near the center of the map
 LOAD1 0x1 Turn5Reinforcements
 ENUN
 STAL 60
@@ -317,11 +317,11 @@ ALIGN 4
 
 
 Turn6Event:
-_0x2620 0x1705 //this is the regular camera command but better for areas not near the center of the map
+CAMERA [5,23] //this is the regular camera command but better for areas not near the center of the map
 LOAD1 0x1 Turn6Reinforcements
 ENUN
 STAL 60
-_0x2620 0x1714 //this is the regular camera command but better for areas not near the center of the map
+CAMERA [20,23] //this is the regular camera command but better for areas not near the center of the map
 LOAD1 0x1 Turn6ReinforcementsB
 ENUN
 STAL 60
@@ -363,11 +363,11 @@ ALIGN 4
 
 
 Turn7Event:
-_0x2620 0x1705 //this is the regular camera command but better for areas not near the center of the map
+CAMERA [5,23] //this is the regular camera command but better for areas not near the center of the map
 LOAD1 0x1 Turn7Reinforcements
 ENUN
 STAL 60
-_0x2620 0x1714 //this is the regular camera command but better for areas not near the center of the map
+CAMERA [20,23] //this is the regular camera command but better for areas not near the center of the map
 LOAD1 0x1 Turn7ReinforcementsB
 ENUN
 STAL 60
@@ -413,7 +413,7 @@ ALIGN 4
 
 
 Turn8Event:
-_0x2620 0x0701 //this is the regular camera command but better for areas not near the center of the map
+CAMERA [1,7] //this is the regular camera command but better for areas not near the center of the map
 LOAD1 0x1 Turn8Reinforcements
 ENUN
 STAL 60
@@ -440,7 +440,7 @@ ALIGN 4
 
 
 Turn9Event:
-_0x2620 0x1714 //this is the regular camera command but better for areas not near the center of the map
+CAMERA [20,23] //this is the regular camera command but better for areas not near the center of the map
 LOAD1 0x1 Turn9Reinforcements
 ENUN
 STAL 60
@@ -467,15 +467,15 @@ ALIGN 4
 
 
 Turn10Event:
-_0x2620 0x1705 //this is the regular camera command but better for areas not near the center of the map
+CAMERA [5,23] //this is the regular camera command but better for areas not near the center of the map
 LOAD1 0x1 Turn10Reinforcements
 ENUN
 STAL 60
-_0x2620 0x170B //this is the regular camera command but better for areas not near the center of the map
+CAMERA [11,23] //this is the regular camera command but better for areas not near the center of the map
 LOAD1 0x1 Turn10ReinforcementsB
 ENUN
 STAL 60
-_0x2620 0x1714 //this is the regular camera command but better for areas not near the center of the map
+CAMERA [20,23] //this is the regular camera command but better for areas not near the center of the map
 LOAD1 0x1 Turn10ReinforcementsC
 ENUN
 STAL 60
@@ -528,11 +528,11 @@ ALIGN 4
 
 
 Turn11Event:
-_0x2620 0x170B //this is the regular camera command but better for areas not near the center of the map
+CAMERA [11,23] //this is the regular camera command but better for areas not near the center of the map
 LOAD1 0x1 Turn11Reinforcements
 ENUN
 STAL 60
-_0x2620 0x1714 //this is the regular camera command but better for areas not near the center of the map
+CAMERA [20,23] //this is the regular camera command but better for areas not near the center of the map
 LOAD1 0x1 Turn11ReinforcementsB
 ENUN
 STAL 60
@@ -574,7 +574,7 @@ ALIGN 4
 
 
 Turn12Event:
-_0x2620 0x1705 //this is the regular camera command but better for areas not near the center of the map
+CAMERA [5,23] //this is the regular camera command but better for areas not near the center of the map
 LOAD1 0x1 Turn12Reinforcements
 ENUN
 STAL 60

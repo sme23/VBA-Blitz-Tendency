@@ -1,5 +1,6 @@
 #ifndef VBABT_DEFINITIONS
 #define VBABT_DEFINITIONS
+#define BACKWARDS_COMPATIBILITY
 
 #include "EAstdlib.event"
 

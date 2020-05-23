@@ -856,7 +856,7 @@ scBossWantsToFight: {
 	// _0x2620->CAM2? This one is the "better" camera code, because the other
 	// one likes to pan the camera outside of the map, causing muchos glitchos
 	// (CAM1 Character doesn't have that issue, only the coords variant)
-	_0x2620 0xFFFF
+	CAMERA [0xFF,0xFF]
 
 	ENUN
 
@@ -891,7 +891,7 @@ scBossWantsToFight: {
 	
 	Text(textCh27DeuxnisShowsUp)
 
-	_0x2620 0xFFFF
+	CAMERA [0xFF,0xFF]
 
 	ASMC TorchStaffAnimASMC
 	ASMC TorchSetASMC

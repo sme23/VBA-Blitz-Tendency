@@ -65,10 +65,12 @@ Tutorial:
 //DO NOT TOUCH
 WORD $00
 
+ALIGN 4
 TrapData:
-BLST [17,7] IronBallista
-BLST [18,8] IronBallista
-BLST [18,22] Ballista
+NormalBallista(18,22)
+IronBallista(17,7)
+IronBallista(18,8) 
+MineTrap(0,0)
 END_MAIN
 
 ALIGN 4
