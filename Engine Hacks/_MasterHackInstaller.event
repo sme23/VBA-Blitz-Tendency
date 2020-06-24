@@ -65,6 +65,8 @@ POP
   //MMB
   #include "MMB/MMB Installer Stan.event"
 
+  #include "MMB/MMB Installer Stan.event"
+
   //Improved Sound Mixer
   #include "ImprovedSoundMixer/SoundMixer.event"
 
@@ -230,4 +232,10 @@ POP
 
     #include "SuspendDebuffs/SuspendExpansion.event"
 
+
   #endif // USE_SAVE_EXPANSION
+
+  #ifdef __DEBUG__
+  #include "ASM/Debug.event"
+  #endif
+
