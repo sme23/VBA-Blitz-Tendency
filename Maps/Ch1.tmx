@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="18" height="12" tilewidth="16" tileheight="16" infinite="0" nextobjectid="1">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="18" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="1">
  <tileset firstgid="1" name="0e000f10" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
-  <image source="../../../FE Hacking 2/WeeklyBlitz/Maps/FE8/0e000f10.png" width="512" height="512"/>
+  <image source="../../tilesets/0E000F10.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="1025" name="0e007210" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+ <tileset firstgid="1025" name="0e007210" tilewidth="16" tileheight="16" tilecount="0" columns="32">
   <image source="../../../FE Hacking 2/WeeklyBlitz/Maps/FE8/0e007210.png" width="512" height="512"/>
  </tileset>
- <layer name="Main" width="18" height="12">
+ <layer id="1" name="Main" width="18" height="12">
   <properties>
    <property name="Anims1" value="5"/>
    <property name="ChapterID" value="1"/>
@@ -21,7 +21,7 @@
    eJxt0s0rRFEYx/Fzr1igZOttIxYoGzaUMtig2LGw8RY1alBetl6GqbHhP5gZhJS9jWa4lLGyYTtTXpISSyvfp/Pc5obFp+fcc8/53XPPOYkiY5JIYcsY0+sak3aMyaCf9gC6aa/xrhhDeGRsNX01qEUd0vRlcIlWnvuQQ96x88qRRJbnBmqj5nTy/ECdNLY+Uyvo+6Qeose1a5KMiLxDHE+MaZa1as439Z66rjVHzZu/NYxptOAGHjnnjA87NqeKeoFK15JvuI5dwwLmEQnYxZ62FxHXnA7qGLow5dh9lH8oQYJ2Eins4wCH+MCNY9e0jVnENGcGmwgxZpiMOaRpZ3CJK3i4xpnmvP2T46+nXs81S86dsecbxY4p9Hsoc+0ZlLqFfQ6uxx8n5yHnfqvfjf3q9995gX321yMSgXsoc1717A80Y5z+CbknCBn7f/4+RwOC9/CLcSf6b3J+L9KWfGzgSLL1/rQxtx0jGHXsd2X+u95bWUuT3odjnTfoWqeaLzlLzF3GClbxA728czQ=
   </data>
  </layer>
- <layer name="NVD" width="18" height="12" visible="0">
+ <layer id="2" name="NVD" width="18" height="12" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="0"/>
@@ -33,7 +33,7 @@
    eJx7ysTA8AyInwMxJYCVmYGBDYjZmSkzZxSMguEEAHkEAtQ=
   </data>
  </layer>
- <layer name="NVS" width="18" height="12" visible="0">
+ <layer id="3" name="NVS" width="18" height="12" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="1"/>
@@ -45,7 +45,7 @@
    eJxjYKAeUKSiWaNgFAwHAABo9AAi
   </data>
  </layer>
- <layer name="Chest" width="18" height="12" visible="0">
+ <layer id="4" name="Chest" width="18" height="12" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="2"/>
@@ -57,7 +57,7 @@
    eJxjYBgFo2BoAceBdgAJAAAvDABC
   </data>
  </layer>
- <layer name="SVD" width="18" height="12" visible="0">
+ <layer id="5" name="SVD" width="18" height="12" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="3"/>
@@ -69,7 +69,7 @@
    eJxjYBgFo2DgwVMmBoZnQPyciTJzWJkZGNiAmJ2ZOu6iFAAAUoMC1A==
   </data>
  </layer>
- <layer name="SVS" width="18" height="12" visible="0">
+ <layer id="6" name="SVS" width="18" height="12" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="4"/>
